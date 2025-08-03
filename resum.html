@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinitha Asokan | Data Analyst | Software Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {
+  font-family: Arial, sans-serif;
+  background: #0ef9f5; /* light blue */
+  color: #333;
+  line-height: 1.6;
+}
+
+    header {background: #2078cf; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 999;}
+    header h1 {font-size: 1.5rem;}
+    nav a {color: #fff; margin: 0 1rem; text-decoration: none; font-weight: bold;}
+    .hero {display: flex; align-items: center; justify-content: space-between; padding: 4rem 2rem; background: #eee7e0;}
+    .hero-text {max-width: 50%;}
+    .hero h2 {font-size: 2.5rem; color: #007bff;}
+    .hero p {margin: 1rem 0; font-size: 1.1rem;}
+    .hero button {padding: 0.6rem 1.2rem; margin-right: 1rem; border: none; background: #007bff; color: #f2b3b3; border-radius: 5px; cursor: pointer;}
+    .about, .skills, .projects, .resume, .contact {padding: 4rem 2rem; background: #cda3be;}
+    .section-title {text-align: center; margin-bottom: 2rem; font-size: 2rem; color: #333;}
+    .skills-list, .project-list {display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;}
+    .skill, .project {background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 200px; text-align: center;}
+    .contact form {max-width: 400px; margin: auto; display: flex; flex-direction: column; gap: 1rem;}
+    .contact input, .contact textarea {padding: 0.8rem; border-radius: 5px; border: 1px solid #ccc;}
+    .contact button {background: #007bff; color: #fff; padding: 0.8rem; border: none; border-radius: 5px; cursor: pointer;}
+    footer {text-align: center; padding: 2rem; background: #343a40; color: #fff;}
+    .social-icons a {margin: 0 0.5rem; color: #fff; font-size: 1.2rem; text-decoration: none;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vinitha Asokan</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hi, I'm Vinitha 👋</h2>
+      <p><b>Aspiring Data Analyst & Software Developer | Skilled in Python, Java, SQL, Power BI </b><br> Motivated and detail-oriented Data Analyst 
+with a strong foundation in SQL, Excel, 
+Python, and data visualization tools. 
+Passionate about transforming raw data into 
+actionable insights. Eager to apply analytical 
+thinking in a data-driven organization.. </p>
+      <button onclick="window.location.href='#resume'">View Resume</button>
+      <button onclick="window.location.href='#contact'">Contact Me</button>
+    </div>
+    <div>
+      <img src="vini.jpg" alt="Vinitha" style="width: 250px; border-radius: 10px;">
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <p style="max-width: 800px; margin: auto; text-align: center;">
+      Hi, I’m Vinitha Asokan, a passionate and detail-oriented Computer Science Engineering graduate (2021–2025) with a strong foundation in data analytics. I specialize in using tools like<b> Python, SQL, Power BI, and Excel </b> to uncover meaningful insights from raw data.
+
+ I enjoy solving problems through data, building interactive dashboards, and supporting decision-making through analytics.
+
+I’m currently seeking a challenging opportunity where I can grow as a Data Analyst while contributing to impactful projects. I’m always excited to learn, collaborate, and turn data into actionable stories.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-list">
+      <div class="skill">Python</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Power BI</div>
+      <div class="skill">Excel</div>
+      <div class="skill">Pandas</div>
+      <div class="skill">NumPy</div>
+      <div class="skill">Java</div>
+      <div class="skill">Html</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+
+
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h4>Smart Communication Hub </h4>
+        <p>Built a system that handles 
+scheduled messaging using backend 
+scripting. </p>
+      </div>
+      <div class="project">
+        <h4>Monthly Groceries expense dashboard 
+using excel </h4>
+        <p>Dashboard will create by excel for 
+track the monthly expense.</p>
+      </div>
+      <div class="project">
+        <h4>Blood and Organ Donation Website </h4>
+        <p>Built a searchable donor database 
+with MySQL. </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="resume">
+    <h2 class="section-title">Resume</h2>
+    <p style="text-align:center">
+        <h3 style="text-align:center">Aspiring Data Analyst & Software Developer | Skilled in Python, Java, SQL, Power BI <br>
+      <a href="dataresume.pdf" style="text-decoration:none; font-weight:bold; color:#007bff; text-align:center">Download My Resume (PDF)</a></h3>
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+  <h2 class="section-title">Get in Touch</h2>
+  <div style="max-width: 500px; margin: auto; text-align: center; font-size: 1.1rem;">
+    <p><strong>Email:</strong> 
+      <a href="mailto:vinithaasokan1113@gmail.com" style="color: #007bff;">
+        vinithaasokan1113@gmail.com
+      </a>
+    </p>
+    <p><strong>LinkedIn:</strong> 
+      <a href="https://www.linkedin.com/in/vinitha-asokan-34b5872a3/" target="_blank" style="color: #007bff;">
+        linkedin.com/in/vinitha-asokan
+      </a>
+    </p>
+    <p><strong>GitHub:</strong> 
+      <a href="https://github.com/vinitharathi" target="_blank" style="color: #007bff;">
+        github.com/vinithaasokan
+      </a>
+    </p>
+    <p><strong>Phone:</strong> +91-9791667415</p>
+  </div>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 Vinitha Asokan | Data Analyst | Software Developer</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/vinitha-asokan-34b5872a3/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/vinitharathi"><i class="fab fa-github"></i></a>
+      <a href="mailto:vinithaasokan1113@gmail.com" target="_blank" style="color: inherit;">
+  <i class="fas fa-envelope"></i>
+</a>
+
+    </div>
+  </footer>
+</body>
+</html>
